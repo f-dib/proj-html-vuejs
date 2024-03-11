@@ -2,7 +2,7 @@
 import AppSocial from '../4-Commons/AppSocial.vue';
 
 export default {
-    name: 'AppFooter',
+    name: 'AppJumbo',
 
     components: {
         AppSocial
@@ -12,8 +12,8 @@ export default {
 
 <template>
     <div class="d-flex justify-content-center">
-        <h2>footer</h2>
         <AppSocial></AppSocial>
+        <h2>Jumbo</h2>
     </div>
 </template>
 
