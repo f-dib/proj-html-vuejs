@@ -1,4 +1,5 @@
 <script>
+import { data } from '../../js/data';
 import AppSocial from '../4-Commons/AppSocial.vue';
 
 export default {
@@ -6,13 +7,19 @@ export default {
 
     components: {
         AppSocial
+    },
+
+    data(){
+        return {
+            data
+        }
     }
 }
 </script>
 
 <template>
     <div class="position-absolute my_social_header d-flex flex-column gap-2">
-        <AppSocial></AppSocial>
+        <AppSocial v-for="currentSocial in data.social" :getSocial="currentSocial"></AppSocial>
     </div>
     <div class="my_jumbo text-center text-white text-uppercase">
         <h5 class="my_subtitle">welcome to raxg</h5>

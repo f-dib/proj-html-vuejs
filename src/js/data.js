@@ -25,25 +25,25 @@ export const data = reactive ({
 
     cart: [
         {
-            img: 'image(1).svg'
+            img: '/img/image (1).svg'
         },
         {
-            img:'image(3).svg'
+            img:'/img/image (3).svg'
         }
     ],
 
     social: [
         {
-            img: 'image(4).svg'
+            img: '/img/image (4).svg'
         },
         {
-            img: 'image(5).svg'
+            img: '/img/image (5).svg'
         },
         {
-            img: 'image(6).svg'
+            img: '/img/image (6).svg'
         },
         {
-            img: 'image(7).svg'
+            img: '/img/image (7).svg'
         }
     ],
 
@@ -70,7 +70,7 @@ export const data = reactive ({
 
     comp1: [
         {
-            img: 'exprince.png',
+            img: '/img/exprince.png',
             subtitle: '12 Year Experience',
             title: 'We Are The Best Gaming Company',
             text: 'Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta.Praesent sapien massa, convallis a pellentesque nec, egestas non nisi praesent sapien massa ligula sed magna dictum porta. Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligulaa.',
@@ -100,22 +100,22 @@ export const data = reactive ({
             
             box: [
                 {
-                    img: 'feature1.png',
+                    img: '/img/feature1.png',
                     title: 'Live Streaming',
                     text: 'Nulla porttitor accumsan tincidunt. Pellentesque in.'
                 },
                 {
-                    img: 'feature2.png',
+                    img: '/img/feature2.png',
                     title: 'Gaming News',
                     text: 'Nulla porttitor accumsan tincidunt. Pellentesque in.'
                 },
                 {
-                    img: 'feature3.png',
+                    img: '/img/feature3.png',
                     title: 'Great Tournament',
                     text: 'Nulla porttitor accumsan tincidunt. Pellentesque in.'
                 },
                 {
-                    img: 'feature4.png',
+                    img: '/img/feature4.png',
                     title: 'Awward Ceremony',
                     text: 'Nulla porttitor accumsan tincidunt. Pellentesque in.'
                 }
@@ -130,14 +130,12 @@ export const data = reactive ({
             
             box: [
                 {
-                    id: 1,
-                    img: 'v-small1.png',
+                    img: '/img/v-small1.png',
                     title: 'Call Of Deauty',
                     text: 'Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.'
                 },
                 {
-                    id: 2,
-                    img: 'v-small2.png',
+                    img: '/img/v-small2.png',
                     title: 'Gaming News',
                     text: 'Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.'
                 }
@@ -182,22 +180,22 @@ export const data = reactive ({
             
             box: [
                 {
-                    img: 'protfolio1.png',
+                    img: '/img/protfolio1.png',
                     title: 'Assassin \'s Creed',
                     text: 'Donec sollicitudin malesuada.'
                 },
                 {
-                    img: 'protfolio2.png',
+                    img: '/img/protfolio2.png',
                     title: 'Call Of Deauty',
                     text: 'Donec sollicitudin malesuada.'
                 },
                 {
-                    img: 'protfolio3.png',
+                    img: '/img/protfolio3.png',
                     title: 'Tomb Rider',
                     text: 'Donec sollicitudin malesuada.'
                 },
                 {
-                    img: 'protfolio4.png',
+                    img: '/img/protfolio4.png',
                     title: 'Mortal Combat X',
                     text: 'Donec sollicitudin malesuada.'
                 }
@@ -212,19 +210,19 @@ export const data = reactive ({
             
             box: [
                 {
-                    img: '1.png',
+                    img: '/img/1.png',
                     title: 'Ninja Warrior Gaming',
                     vote: '9.45',
                     data: '1st November,2022'
                 },
                 {
-                    img: '5.png',
+                    img: '/img/5.png',
                     title: 'Witch Gaming',
                     vote: '9.45',
                     data: '1st November,2022'
                 },
                 {
-                    img: '3.png',
+                    img: '/img/3.png',
                     title: 'SkullG Gaming',
                     vote: '9.45',
                     data: '1st November,2022'
@@ -240,22 +238,22 @@ export const data = reactive ({
             
             box: [
                 {
-                    img: 'team1.png',
+                    img: '/img/team1.png',
                     name: 'Cristiano Messi',
                     rule: 'CEO/Founder'
                 },
                 {
-                    img: 'team2.png',
+                    img: '/img/team2.png',
                     name: 'Sergio Naymer',
                     rule: 'Programmer'
                 },
                 {
-                    img: 'team3.png',
+                    img: '/img/team3.png',
                     name: 'Antonella Roccuzzo',
                     rule: 'Project Manager'
                 },
                 {
-                    img: 'team4.png',
+                    img: '/img/team4.png',
                     name: 'Lionel Ramos',
                     rule: 'Game Designer'
                 }
@@ -270,25 +268,25 @@ export const data = reactive ({
             
             box: [
                 {
-                    img: 'test1.png',
+                    img: '/img/test1.png',
                     text: 'Donec sollicitudin molestie malesuada. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Cras ultricies ligula sed magna dictum porta. Donec rutrum congue leo eget',
                     name: 'Mohammad Sala',
                     rule: 'CEO/Founder'
                 },
                 {
-                    img: 'test2.png',
+                    img: '/img/test2.png',
                     text: 'Donec sollicitudin molestie malesuada. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Cras ultricies ligula sed magna dictum porta. Donec rutrum congue leo eget',
                     name: 'Mohammad Sala',
                     rule: 'CEO/Founder'
                 },
                 {
-                    img: 'test3.png',
+                    img: '/img/test3.png',
                     text: 'Donec sollicitudin molestie malesuada. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Cras ultricies ligula sed magna dictum porta. Donec rutrum congue leo eget',
                     name: 'Mohammad Sala',
                     rule: 'CEO/Founder'
                 },
                 {
-                    img: 'test4.png',
+                    img: '/img/test4.png',
                     text: 'Donec sollicitudin molestie malesuada. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Cras ultricies ligula sed magna dictum porta. Donec rutrum congue leo eget',
                     name: 'Mohammad Sala',
                     rule: 'CEO/Founder'
@@ -304,25 +302,25 @@ export const data = reactive ({
             
             box: [
                 {
-                    img: 's1.png',
+                    img: '/img/s1.png',
                     name: 'Asus Rog Strix A53',
                     price: '$999.00',
                     discount: '970.00'
                 },
                 {
-                    img: 's2.png',
+                    img: '/img/s2.png',
                     name: 'Asus Rog Strix A53',
                     price: '$999.00',
                     discount: '970.00'
                 },
                 {
-                    img: 's3.png',
+                    img: '/img/s3.png',
                     name: 'Asus Rog Strix A53',
                     price: '$999.00',
                     discount: '970.00'
                 },
                 {
-                    img: 's4.png',
+                    img: '/img/s4.png',
                     name: 'Asus Rog Strix A53',
                     price: '$999.00',
                     discount: '970.00'
@@ -338,25 +336,25 @@ export const data = reactive ({
             
             box: [
                 {
-                    img: 'b1.png',
+                    img: '/img/b1.png',
                     name: 'Ninja Warrior Gaming',
                     writer: 'By Admin',
                     data: 'Oct 25, 2022'
                 },
                 {
-                    img: 'b2.png',
+                    img: '/img/b2.png',
                     name: 'Gost Rider Returns',
                     writer: 'By Admin',
                     data: 'Oct 25, 2022'
                 },
                 {
-                    img: 'b3.png',
+                    img: '/img/b3.png',
                     name: 'Call Of Deauty 4',
                     writer: 'By Admin',
                     data: 'Oct 25, 2022'
                 },
                 {
-                    img: 'b4.png',
+                    img: '/img/b4.png',
                     name: 'Mortal Combat X',
                     writer: 'By Admin',
                     data: 'Oct 25, 2022'

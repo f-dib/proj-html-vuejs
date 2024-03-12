@@ -1,8 +1,13 @@
 <script>
 import {data} from '../../js/data';
+import AppLink from '../4-Commons/AppLink.vue';
 
 export default {
     name: 'AppNav',
+
+    components: {
+        AppLink
+    },
 
     data(){
         return {
@@ -21,9 +26,7 @@ export default {
             </button>
             <div class="collapse navbar-collapse justify-content-lg-center justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-center">
-                    <li class="nav-item" v-for="currentLink in data.genLink">
-                    <a class="nav-link active text-white text-uppercase" aria-current="page" href="#">{{ currentLink.link }}</a>
-                    </li>
+                    <AppLink v-for="currentLink in data.genLink" :getLink="currentLink"></AppLink>
                 </ul>
             </div>
             <div class="d-flex my_small justify-content-end" role="search">

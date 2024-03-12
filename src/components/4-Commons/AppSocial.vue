@@ -1,21 +1,16 @@
 <script>
 export default {
-    name: 'AppSocial'
+    name: 'AppSocial',
+
+    props: {
+        getSocial: Object
+    }
 }
 </script>
 
 <template>
     <div class="my_social d-flex justify-content-center align-items-center">
-        <img class="my_social_img" src="../../../public/img/image (4).svg" alt="">
-    </div>
-    <div class="my_social d-flex justify-content-center align-items-center">
-        <img class="my_social_img" src="../../../public/img/image (4).svg" alt="">
-    </div>
-    <div class="my_social d-flex justify-content-center align-items-center">
-        <img class="my_social_img" src="../../../public/img/image (4).svg" alt="">
-    </div>
-    <div class="my_social d-flex justify-content-center align-items-center">
-        <img class="my_social_img" src="../../../public/img/image (4).svg" alt="">
+        <img class="my_social_img" :src="getSocial.img" alt="">
     </div>
 </template>
 
@@ -30,6 +25,7 @@ export default {
 
         .my_social_img{
             width: 20px;
+            height: 20px;
             filter: invert(1);
         }
     }
