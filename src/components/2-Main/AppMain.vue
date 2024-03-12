@@ -40,7 +40,9 @@ export default {
     <div class="my_comp3_bg">
         <AppComp3></AppComp3>
     </div>
-    <AppComp4></AppComp4>
+    <div class="my_comp_bg_blu">
+        <AppComp4></AppComp4>
+    </div>
     <AppComp5></AppComp5>
     <AppComp6></AppComp6>
     <AppComp7></AppComp7>
