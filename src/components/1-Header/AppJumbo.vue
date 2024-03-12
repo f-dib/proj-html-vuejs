@@ -30,6 +30,6 @@ export default {
     }
 
     .my_jumbo{
-        padding: 150px;
+        padding: 300px;
     }
 </style>

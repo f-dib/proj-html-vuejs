@@ -31,8 +31,12 @@ export default {
 </script>
 
 <template>
-    <AppComp1></AppComp1>
-    <AppComp2></AppComp2>
+    <div class="my_comp_bg_blu">
+        <AppComp1></AppComp1>
+    </div>
+    <div class="my_bg_float my_comp2_bg">
+        <AppComp2></AppComp2>
+    </div>
     <AppComp3></AppComp3>
     <AppComp4></AppComp4>
     <AppComp5></AppComp5>
@@ -45,5 +49,9 @@ export default {
 </template>
 
 <style lang="scss">
-
+    .my_comp2_bg{
+        background-image: url(../../../public/img/Vector.png);
+        background-size: cover;
+        background-position: center;
+    }
 </style>
