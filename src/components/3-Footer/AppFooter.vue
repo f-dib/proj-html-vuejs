@@ -11,12 +11,26 @@ export default {
 </script>
 
 <template>
-    <div class="d-flex justify-content-center">
-        <h2>footer</h2>
-        <AppSocial></AppSocial>
+    <div class="my_footer">
+        <div class="container-xxl">
+            <div>
+                <div>
+                    <img src="../../../public/img/menulogo.png" alt="">
+                </div>
+            </div>
+            <AppSocial></AppSocial>
+        </div>
     </div>
 </template>
 
 <style lang="scss">
+    .my_footer{
+        height: 380px;
 
+        padding-top: 150px;
+
+        background-image: url(../../../public/img/banner1.png);
+        background-size: cover;
+        background-position: center;
+    }
 </style>
