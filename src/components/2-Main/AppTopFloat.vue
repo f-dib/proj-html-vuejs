@@ -20,7 +20,7 @@ export default {
 
 <style lang="scss">
     .my_img_top{
-        width: 60px;
-        height: 80px;
+        width: 170px;
+        height: 190px;
     }
 </style>

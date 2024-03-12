@@ -37,7 +37,9 @@ export default {
     <div class="my_bg_float my_comp2_bg">
         <AppComp2></AppComp2>
     </div>
-    <AppComp3></AppComp3>
+    <div class="my_comp3_bg">
+        <AppComp3></AppComp3>
+    </div>
     <AppComp4></AppComp4>
     <AppComp5></AppComp5>
     <AppComp6></AppComp6>
@@ -51,6 +53,12 @@ export default {
 <style lang="scss">
     .my_comp2_bg{
         background-image: url(../../../public/img/Vector.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .my_comp3_bg{
+        background-image: url(../../../public/img/v-bg.png);
         background-size: cover;
         background-position: center;
     }

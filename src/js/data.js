@@ -49,22 +49,22 @@ export const data = reactive ({
 
     topFloat: [
         {
-            img: '/public/1.png'
+            img: '/img/1.png'
         },
         {
-            img: '../../assets/2.png'
+            img: '/img/2.png'
         },
         {
-            img: '../../assets/3.png'
+            img: '/img/3.png'
         },
         {
-            img: '../../assets/4.png'
+            img: '/img/4.png'
         },
         {
-            img: '../../assets/5.png'
+            img: '/img/5.png'
         },
         {
-            img: '../../assets/6.png'
+            img: '/img/6.png'
         }
     ],
 
@@ -130,11 +130,13 @@ export const data = reactive ({
             
             box: [
                 {
+                    id: 1,
                     img: 'v-small1.png',
                     title: 'Call Of Deauty',
                     text: 'Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.'
                 },
                 {
+                    id: 2,
                     img: 'v-small2.png',
                     title: 'Gaming News',
                     text: 'Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.'
