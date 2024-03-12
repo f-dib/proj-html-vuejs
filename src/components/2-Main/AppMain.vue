@@ -55,7 +55,9 @@ export default {
     <div class="my_bg_float my_comp8_bg">
         <AppComp8></AppComp8>
     </div>
-    <AppComp9></AppComp9>
+    <div class="my_comp9_bg">
+        <AppComp9></AppComp9>
+    </div>
     <AppComp10></AppComp10>
     <AppMailFloat></AppMailFloat>
 </template>
@@ -90,5 +92,11 @@ export default {
         background-size: 60% 70%, 40% 100%;
         background-position: left bottom, right top;
         background-repeat: no-repeat;
+    }
+
+    .my_comp9_bg{
+        background-image: url(../../../public/img/shop-bg.png);
+        background-size: cover;
+        background-position: center;
     }
 </style>
