@@ -11,8 +11,11 @@ export default {
 </script>
 
 <template>
-    <div class="position-relative my_comp1">
+    <div class="position-relative my_comp1 my_comp_bg_blu container-xxl">
         <AppTopFloat class="position-absolute my_top_float"></AppTopFloat>
+        <div>
+
+        </div>
     </div>
 </template>
 

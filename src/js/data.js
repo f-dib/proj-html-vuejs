@@ -25,46 +25,46 @@ export const data = reactive ({
 
     cart: [
         {
-            img: 'image (1).png'
+            img: 'image(1).svg'
         },
         {
-            img:'image (3).png'
+            img:'image(3).svg'
         }
     ],
 
     social: [
         {
-            img: 'image (4).png'
+            img: 'image(4).svg'
         },
         {
-            img: 'image (5).png'
+            img: 'image(5).svg'
         },
         {
-            img: 'image (6).png'
+            img: 'image(6).svg'
         },
         {
-            img: 'image (7).png'
+            img: 'image(7).svg'
         }
     ],
 
     topFloat: [
         {
-            img: '1.png'
+            img: '/public/1.png'
         },
         {
-            img: '2.png'
+            img: '../../assets/2.png'
         },
         {
-            img: '3.png'
+            img: '../../assets/3.png'
         },
         {
-            img: '4.png'
+            img: '../../assets/4.png'
         },
         {
-            img: '5.png'
+            img: '../../assets/5.png'
         },
         {
-            img: '6.png'
+            img: '../../assets/6.png'
         }
     ],
 
