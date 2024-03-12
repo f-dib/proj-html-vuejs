@@ -52,7 +52,9 @@ export default {
     <div class="my_comp_bg_blu">
         <AppComp7></AppComp7>
     </div>
-    <AppComp8></AppComp8>
+    <div class="my_bg_float my_comp8_bg">
+        <AppComp8></AppComp8>
+    </div>
     <AppComp9></AppComp9>
     <AppComp10></AppComp10>
     <AppMailFloat></AppMailFloat>
@@ -81,5 +83,12 @@ export default {
         background-image: url(../../../public/img/v-bg.png);
         background-size: cover;
         background-position: center;
+    }
+
+    .my_comp8_bg{
+        background-image: url(../../../public/img/test-grouptwo.png), url(../../../public/img/test-group.png);
+        background-size: 60% 70%, 40% 100%;
+        background-position: left bottom, right top;
+        background-repeat: no-repeat;
     }
 </style>
