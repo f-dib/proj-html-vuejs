@@ -68,25 +68,30 @@ export const data = reactive ({
         }
     ],
 
-    comp1: [
+    bestGaming: [
         {
-            img: '/img/exprince.png',
+            img: '/img/exprince.jpg',
             subtitle: '12 Year Experience',
             title: 'We Are The Best Gaming Company',
-            text: 'Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta.Praesent sapien massa, convallis a pellentesque nec, egestas non nisi praesent sapien massa ligula sed magna dictum porta. Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligulaa.',
-            
+            text: 'Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta.Praesent sapien massa, convallis a pellentesque nec, egestas non nisi praesent sapien massa ligula sed magna dictum porta.',
+            text2: 'Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligulaa.',
+
             bullet: [
                 {
-                    bull1: 'Sed porttitor lectus nibh. Proin eget tortor risus.'
+                    img: '/img/image (10).svg',
+                    bull: 'Sed porttitor lectus nibh. Proin eget tortor risus.'
                 },
                 {
-                    bull2: 'Praesent sapien massa, convallis a pellentesque nec. risus.'
+                    img: '/img/image (10).svg',
+                    bull: 'Praesent sapien massa, convallis a pellentesque nec. risus.'
                 },
                 {
-                    bull3: 'Praesent sapien massa, convallis a pellentesque nec. risus.'
+                    img: '/img/image (10).svg',
+                    bull: 'Praesent sapien massa, convallis a pellentesque nec. risus.'
                 },
                 {
-                    bull4: 'Praesent sapien massa, convallis a pellentesque nec. risus.'
+                    img: '/img/image (10).svg',
+                    bull: 'Praesent sapien massa, convallis a pellentesque nec. risus.'
                 }
             ]
         }

@@ -1,5 +1,5 @@
 <script>
-import AppComp1 from './AppComp1.vue';
+import AppBestGaming from './AppBestGaming.vue';
 import AppComp2 from './AppComp2.vue';
 import AppComp3 from './AppComp3.vue';
 import AppComp4 from './AppComp4.vue';
@@ -14,7 +14,7 @@ export default {
     name: 'AppMain',
 
     components: {
-        AppComp1,
+        AppBestGaming,
         AppComp2,
         AppComp3,
         AppComp4,
@@ -30,7 +30,7 @@ export default {
 
 <template>
     <div class="my_comp_bg_blu">
-        <AppComp1></AppComp1>
+        <AppBestGaming></AppBestGaming>
     </div>
     <div class="my_bg_float my_comp2_bg">
         <AppComp2></AppComp2>

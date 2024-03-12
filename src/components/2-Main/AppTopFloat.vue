@@ -14,7 +14,7 @@ export default {
 
 <template>
     <div class="my_bg_float p-4 rounded-3 d-flex gap-5 w-100">
-        <img class="my_img_top p-3" v-for="currentImg in data.topFloat" :src="currentImg.img" alt="">
+        <img class="my_img_top px-3" v-for="currentImg in data.topFloat" :src="currentImg.img" alt="">
     </div>
 </template>
 
