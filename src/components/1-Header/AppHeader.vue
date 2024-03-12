@@ -13,10 +13,16 @@ export default {
 </script>
 
 <template>
-    <AppNav></AppNav>
-    <AppJumbo></AppJumbo>
+    <div class="my_header">
+        <AppNav></AppNav>
+        <AppJumbo></AppJumbo>
+    </div>
 </template>
 
 <style lang="scss">
-
+    .my_header {
+        background-image: url(../../assets/banner1.png);
+        background-position: center;
+        background-size: cover;
+    }
 </style>

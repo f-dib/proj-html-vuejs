@@ -1,5 +1,4 @@
 <script>
-import AppTopFloat from './AppTopFloat.vue';
 import AppComp1 from './AppComp1.vue';
 import AppComp2 from './AppComp2.vue';
 import AppComp3 from './AppComp3.vue';
@@ -16,7 +15,6 @@ export default {
     name: 'AppMain',
 
     components: {
-        AppTopFloat,
         AppComp1,
         AppComp2,
         AppComp3,
@@ -33,7 +31,6 @@ export default {
 </script>
 
 <template>
-    <AppTopFloat></AppTopFloat>
     <AppComp1></AppComp1>
     <AppComp2></AppComp2>
     <AppComp3></AppComp3>

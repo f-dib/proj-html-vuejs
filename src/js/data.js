@@ -23,18 +23,27 @@ export const data = reactive ({
         }
     ],
 
+    cart: [
+        {
+            img: 'image (1).png'
+        },
+        {
+            img:'image (3).png'
+        }
+    ],
+
     social: [
         {
-            soc: 'image (4).png'
+            img: 'image (4).png'
         },
         {
-            soc: 'image (5).png'
+            img: 'image (5).png'
         },
         {
-            soc: 'image (6).png'
+            img: 'image (6).png'
         },
         {
-            soc: 'image (7).png'
+            img: 'image (7).png'
         }
     ],
 
