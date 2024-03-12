@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-        <div class="my_comp9 container-xxl d-flex flex-column gap-3 text-white">
+    <div class="my_comp9 container-xxl d-flex flex-column gap-3 text-white">
         <div>text</div>
         <div class="mb-5">text</div>
         <div class="d-flex justify-content-center align-items-center position-relative">

@@ -9,7 +9,6 @@ import AppComp7 from './AppComp7.vue';
 import AppComp8 from './AppComp8.vue';
 import AppComp9 from './AppComp9.vue';
 import AppComp10 from './AppComp10.vue';
-import AppMailFloat from './AppMailFloat.vue';
 
 export default {
     name: 'AppMain',
@@ -24,8 +23,7 @@ export default {
         AppComp7,
         AppComp8,
         AppComp9,
-        AppComp10,
-        AppMailFloat
+        AppComp10
     }
 }
 </script>
@@ -58,8 +56,9 @@ export default {
     <div class="my_comp9_bg">
         <AppComp9></AppComp9>
     </div>
-    <AppComp10></AppComp10>
-    <AppMailFloat></AppMailFloat>
+    <div class="my_comp_bg_blu">
+        <AppComp10></AppComp10>
+    </div>
 </template>
 
 <style lang="scss">
