@@ -34,8 +34,8 @@ export default {
                 </div>
             </div>
             <div class="py-4 d-flex align-items-center justify-content-between">
-                <div>
-                    text
+                <div class="text-white fw-bold">
+                    Copyright © RaxG | Designed by <span class="my_copyright">NextGenerationDev</span>
                 </div>
                 <div class="d-flex gap-3">
                     <AppSocial v-for="currentSocial in data.social" :getSocial="currentSocial"></AppSocial>
@@ -46,6 +46,8 @@ export default {
 </template>
 
 <style lang="scss">
+    @use '../../style/variables.scss' as *;
+
     .my_footer{
         padding-top: 150px;
 
@@ -56,5 +58,9 @@ export default {
         .my_footer_link{
             border-bottom: 1px solid white;
         }
+    }
+
+    .my_copyright {
+        color: $primarygreen;
     }
 </style>

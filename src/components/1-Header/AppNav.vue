@@ -25,20 +25,43 @@ export default {
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-lg-center justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-center">
+                <ul class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-center gap-4">
                     <AppLink v-for="currentLink in data.genLink" :getLink="currentLink"></AppLink>
                 </ul>
             </div>
-            <div class="d-flex my_small justify-content-end" role="search">
-                search
-                cart
+            <div class="d-flex gap-3 position-relative">
+                <div v-for="currentCart in data.cart" class="my_round my_cart d-flex justify-content-center align-items-center">
+                    <img class="my_round_img my_cart_svg" :src="currentCart.img" alt="">
+                </div>
+                <div class="my_number_cart rounded-circle d-flex justify-content-center align-items-center position-absolute">
+                    <span class="text-white">0</span>
+                </div>
             </div>
         </div>
     </nav>
 </template>
 
 <style lang="scss">
+    @use '../../style/variables.scss' as *;
+
     .my_small{
         width: 20%;
+    }
+
+    .my_cart {
+        background-color: white;
+
+        .my_cart_svg{
+            filter: invert(28%) sepia(91%) saturate(4046%) hue-rotate(233deg) brightness(100%) contrast(102%);
+        }
+    }
+
+    .my_number_cart {
+        width: 30px;
+        height: 30px;
+        top: 0;
+        right: 0;
+        transform: translateY(-25%) translateX(50%);
+        background-color: $quaternaryblu;
     }
 </style>

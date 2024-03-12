@@ -29,4 +29,8 @@ export default {
             filter: invert(1);
         }
     }
+
+    .my_social:hover {
+        background-color: $secondarygreen;
+    }
 </style>

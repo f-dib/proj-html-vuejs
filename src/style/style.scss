@@ -45,3 +45,46 @@
   width: 100%;
   height: 100%;
 }
+
+.my_round {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+
+  .my_round_img{
+      width: 20px;
+      height: 20px;
+      filter: invert(1);
+  }
+}
+
+.btn_more{
+  padding: 10px 25px;
+  background-color: $secondarygreen;
+  color: $primaryblu;
+  border: none;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.0);
+    border: 1px solid $secondarygreen;
+    color: $secondarygreen;
+
+    .my_arrow {
+        filter: invert(69%) sepia(15%) saturate(6025%) hue-rotate(106deg) brightness(90%) contrast(96%);
+    }
+  }
+
+  .my_arrow{
+    width: 25px;
+    filter: invert(9%) sepia(9%) saturate(4253%) hue-rotate(202deg) brightness(97%) contrast(97%);
+  }
+}
+
+.my_play {
+  background-color: $secondarygreen;
+
+  .my_play_svg{
+      filter: invert(9%) sepia(9%) saturate(4253%) hue-rotate(202deg) brightness(97%) contrast(97%);
+  }
+}
