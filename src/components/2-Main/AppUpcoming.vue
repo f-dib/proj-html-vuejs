@@ -140,7 +140,6 @@ export default {
     @use '../../style/variables.scss' as *;
 
     .my_comp4{
-        height: 2000px;
         padding: 120px 0px;
 
         .my_player_bg{

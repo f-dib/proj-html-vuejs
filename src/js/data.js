@@ -196,28 +196,32 @@ export const data = reactive ({
         }
     ],
 
-    comp5: [
+    choose: [
         {
             subtitle: 'Our Extrem Feature',
             title: 'Choose Who Is The Best In World!',
             
             box: [
                 {
+                    type: 'New',
                     img: '/img/protfolio1.png',
                     title: 'Assassin \'s Creed',
                     text: 'Donec sollicitudin malesuada.'
                 },
                 {
+                    type: 'New',
                     img: '/img/protfolio2.png',
                     title: 'Call Of Deauty',
                     text: 'Donec sollicitudin malesuada.'
                 },
                 {
+                    type: 'New',
                     img: '/img/protfolio3.png',
                     title: 'Tomb Rider',
                     text: 'Donec sollicitudin malesuada.'
                 },
                 {
+                    type: 'New',
                     img: '/img/protfolio4.png',
                     title: 'Mortal Combat X',
                     text: 'Donec sollicitudin malesuada.'

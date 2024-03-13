@@ -3,7 +3,7 @@ import AppBestGaming from './AppBestGaming.vue';
 import AppArena from './AppArena.vue';
 import AppLive from './AppLive.vue';
 import AppUpcoming from './AppUpcoming.vue';
-import AppComp5 from './AppComp5.vue';
+import AppChoose from './AppChoose.vue';
 import AppComp6 from './AppComp6.vue';
 import AppComp7 from './AppComp7.vue';
 import AppComp8 from './AppComp8.vue';
@@ -18,7 +18,7 @@ export default {
         AppArena,
         AppLive,
         AppUpcoming,
-        AppComp5,
+        AppChoose,
         AppComp6,
         AppComp7,
         AppComp8,
@@ -42,7 +42,7 @@ export default {
         <AppUpcoming></AppUpcoming>
     </div>
     <div class="my_bg_float my_comp5_bg">
-        <AppComp5></AppComp5>
+        <AppChoose></AppChoose>
     </div>
     <div class="my_comp6_bg">
         <AppComp6></AppComp6>
