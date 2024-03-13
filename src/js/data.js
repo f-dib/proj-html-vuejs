@@ -128,7 +128,7 @@ export const data = reactive ({
         }
     ],
 
-    comp3: [
+    Live: [
         {
             subtitle: 'Live Streaming',
             title: 'Checkout Our Live Streaming',

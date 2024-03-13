@@ -29,6 +29,38 @@
   font-size: 48px;
 }
 
+.my_arrow {
+  top: -20%;
+  right: 3%;
+
+  
+
+  .my_arrow_bg_left {
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+
+    .arrow_left{
+      width: 15px;
+      height: 15px;
+    }
+  }
+
+  .my_arrow_bg_right {
+    background-color: $secondarygreen;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+
+    .arrow_right{
+      width: 15px;
+      height: 15px;
+      filter: invert(1);
+    }
+  }
+}
+
 .my_comp_bg_blu{
   background-color: $primaryblu;
 }

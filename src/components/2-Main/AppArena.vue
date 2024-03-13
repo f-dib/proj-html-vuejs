@@ -16,7 +16,7 @@ export default {
     <div class="container-xxl">
         <div class="my_comp2 d-flex" v-for="currentElement in data.Arena">
             <div class="w-50 text-white d-flex flex-column justify-content-center">
-                <div class="my_subtitle fs-5">
+                <div class="my_subtitle fs-5 fw-bold">
                     {{ currentElement.subtitle }}
                 </div>
                 <div class="my_title fw-bold mb-4 lh-sm">

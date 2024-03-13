@@ -1,7 +1,7 @@
 <script>
 import AppBestGaming from './AppBestGaming.vue';
 import AppArena from './AppArena.vue';
-import AppComp3 from './AppComp3.vue';
+import AppLive from './AppLive.vue';
 import AppComp4 from './AppComp4.vue';
 import AppComp5 from './AppComp5.vue';
 import AppComp6 from './AppComp6.vue';
@@ -16,7 +16,7 @@ export default {
     components: {
         AppBestGaming,
         AppArena,
-        AppComp3,
+        AppLive,
         AppComp4,
         AppComp5,
         AppComp6,
@@ -36,7 +36,7 @@ export default {
         <AppArena></AppArena>
     </div>
     <div class="my_comp3_bg">
-        <AppComp3></AppComp3>
+        <AppLive></AppLive>
     </div>
     <div class="my_comp_bg_blu">
         <AppComp4></AppComp4>
@@ -72,7 +72,18 @@ export default {
         background-image: url(../../../public/img/v-bg.png);
         background-size: cover;
         background-position: center;
+        position: relative;
     }
+
+    // .my_comp3_bg::before {
+    // position: absolute;
+    // content: "";
+    // top: 0;
+    // left: 0;
+    // right: 0;
+    // bottom: 0;
+    // background: rgba(0, 0, 0, 0.5);
+    // }
 
     .my_comp5_bg{
         background-image: url(../../../public/img/protfolio-vector.png);
