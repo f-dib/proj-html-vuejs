@@ -148,10 +148,28 @@ export const data = reactive ({
         }
     ],
 
-    comp4: [
+    Upcoming: [
         {
             subtitle: 'Trending Battle',
             title: 'Upcoming Match',
+
+            filter: [
+                {
+                    type: 'All',
+                },
+                {
+                    type: 'Pubg',
+                },
+                {
+                    type: 'COD',
+                },
+                {
+                    type: 'AC',
+                },
+                {
+                    type: 'MCX',
+                }
+            ],
             
             // box: [
             //     {
