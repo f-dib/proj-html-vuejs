@@ -7,7 +7,7 @@ import AppChoose from './AppChoose.vue';
 import AppBattle from './AppBattle.vue';
 import AppTeam from './AppTeam.vue';
 import AppClient from './AppClient.vue';
-import AppComp9 from './AppComp9.vue';
+import AppShop from './AppShop.vue';
 import AppComp10 from './AppComp10.vue';
 
 export default {
@@ -22,7 +22,7 @@ export default {
         AppBattle,
         AppTeam,
         AppClient,
-        AppComp9,
+        AppShop,
         AppComp10
     }
 }
@@ -54,7 +54,7 @@ export default {
         <AppClient></AppClient>
     </div>
     <div class="my_comp9_bg">
-        <AppComp9></AppComp9>
+        <AppShop></AppShop>
     </div>
     <div class="my_comp_bg_blu">
         <AppComp10></AppComp10>

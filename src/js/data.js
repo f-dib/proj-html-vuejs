@@ -331,7 +331,7 @@ export const data = reactive ({
         }
     ],
 
-    comp9: [
+    shop: [
         {
             subtitle: 'Gammer Shop',
             title: 'Explore Our Shop',
@@ -341,25 +341,25 @@ export const data = reactive ({
                     img: '/img/s1.png',
                     name: 'Asus Rog Strix A53',
                     price: '$999.00',
-                    discount: '970.00'
+                    discount: '$970.00'
                 },
                 {
                     img: '/img/s2.png',
                     name: 'Asus Rog Strix A53',
                     price: '$999.00',
-                    discount: '970.00'
+                    discount: '$970.00'
                 },
                 {
                     img: '/img/s3.png',
                     name: 'Asus Rog Strix A53',
                     price: '$999.00',
-                    discount: '970.00'
+                    discount: '$970.00'
                 },
                 {
                     img: '/img/s4.png',
                     name: 'Asus Rog Strix A53',
                     price: '$999.00',
-                    discount: '970.00'
+                    discount: '$970.00'
                 }
             ]
         }
