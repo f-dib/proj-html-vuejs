@@ -8,7 +8,7 @@ import AppBattle from './AppBattle.vue';
 import AppTeam from './AppTeam.vue';
 import AppClient from './AppClient.vue';
 import AppShop from './AppShop.vue';
-import AppComp10 from './AppComp10.vue';
+import AppArticles from './AppArticles.vue';
 
 export default {
     name: 'AppMain',
@@ -23,7 +23,7 @@ export default {
         AppTeam,
         AppClient,
         AppShop,
-        AppComp10
+        AppArticles
     }
 }
 </script>
@@ -57,7 +57,7 @@ export default {
         <AppShop></AppShop>
     </div>
     <div class="my_comp_bg_blu">
-        <AppComp10></AppComp10>
+        <AppArticles></AppArticles>
     </div>
 </template>
 

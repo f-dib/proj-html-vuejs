@@ -365,7 +365,7 @@ export const data = reactive ({
         }
     ],
 
-    comp10: [
+    articles: [
         {
             subtitle: 'Latest News',
             title: 'Stay Updated With our Latest News Articles',
