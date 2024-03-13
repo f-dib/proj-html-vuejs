@@ -297,7 +297,7 @@ export const data = reactive ({
         }
     ],
 
-    comp8: [
+    client: [
         {
             subtitle: 'Testimonials',
             title: 'What Our Client Say',
