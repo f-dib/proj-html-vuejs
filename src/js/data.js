@@ -97,7 +97,7 @@ export const data = reactive ({
         }
     ],
 
-    comp2: [
+    Arena: [
         {
             subtitle: 'Our Extrem Feature',
             title: 'The Best Gaming Arena On The World!',

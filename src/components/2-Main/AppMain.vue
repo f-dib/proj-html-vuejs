@@ -1,6 +1,6 @@
 <script>
 import AppBestGaming from './AppBestGaming.vue';
-import AppComp2 from './AppComp2.vue';
+import AppArena from './AppArena.vue';
 import AppComp3 from './AppComp3.vue';
 import AppComp4 from './AppComp4.vue';
 import AppComp5 from './AppComp5.vue';
@@ -15,7 +15,7 @@ export default {
 
     components: {
         AppBestGaming,
-        AppComp2,
+        AppArena,
         AppComp3,
         AppComp4,
         AppComp5,
@@ -33,7 +33,7 @@ export default {
         <AppBestGaming></AppBestGaming>
     </div>
     <div class="my_bg_float my_comp2_bg">
-        <AppComp2></AppComp2>
+        <AppArena></AppArena>
     </div>
     <div class="my_comp3_bg">
         <AppComp3></AppComp3>

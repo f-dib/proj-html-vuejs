@@ -35,7 +35,7 @@ export default {
                 <div class="my_subtitle fs-5">
                     {{ currentElement.subtitle }}
                 </div>
-                <div class="my_title fw-bold mb-4">
+                <div class="my_title fw-bold mb-4 lh-sm">
                     {{ currentElement.title }}
                 </div>
                 <div class="fs-5 mb-3">
@@ -53,7 +53,7 @@ export default {
                     </div>
                 </div>
                 <div class="d-flex justify-content-start align-items-center gap-3 pt-4">
-                    <div class="d-flex"><button class="btn_more fw-bold">Read More <span><img class="my_arrow" src="../../../public/img/image (8).svg" alt=""></span></button></div>
+                    <div class="d-flex"><button class="btn_more fw-bold">Discovery More <span><img class="my_arrow" src="../../../public/img/image (8).svg" alt=""></span></button></div>
                     <div class="my_round my_play d-flex justify-content-center align-items-center">
                         <img class="my_round_img my_play_svg" src="../../../public/img/image (9).svg" alt="">
                     </div>
