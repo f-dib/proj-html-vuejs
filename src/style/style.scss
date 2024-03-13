@@ -29,6 +29,10 @@
   font-size: 48px;
 }
 
+.my_hover_link:hover {
+  color: $secondarygreen !important;
+}
+
 .my_arrow {
   top: -18%;
   right: 1%;
