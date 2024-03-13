@@ -5,7 +5,7 @@ import AppLive from './AppLive.vue';
 import AppUpcoming from './AppUpcoming.vue';
 import AppChoose from './AppChoose.vue';
 import AppBattle from './AppBattle.vue';
-import AppComp7 from './AppComp7.vue';
+import AppTeam from './AppTeam.vue';
 import AppComp8 from './AppComp8.vue';
 import AppComp9 from './AppComp9.vue';
 import AppComp10 from './AppComp10.vue';
@@ -20,7 +20,7 @@ export default {
         AppUpcoming,
         AppChoose,
         AppBattle,
-        AppComp7,
+        AppTeam,
         AppComp8,
         AppComp9,
         AppComp10
@@ -48,7 +48,7 @@ export default {
         <AppBattle></AppBattle>
     </div>
     <div class="my_comp_bg_blu">
-        <AppComp7></AppComp7>
+        <AppTeam></AppTeam>
     </div>
     <div class="my_bg_float my_comp8_bg">
         <AppComp8></AppComp8>

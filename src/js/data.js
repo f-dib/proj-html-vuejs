@@ -267,7 +267,7 @@ export const data = reactive ({
         }
     ],
 
-    comp7: [
+    team: [
         {
             subtitle: 'Team Members',
             title: 'Our Experts Team Members',
