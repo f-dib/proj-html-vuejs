@@ -38,7 +38,7 @@ export default {
     <div class="my_comp3_bg">
         <AppLive></AppLive>
     </div>
-    <div class="my_comp_bg_blu">
+    <div class="my_comp_bg_blu d-none">
         <AppUpcoming></AppUpcoming>
     </div>
     <div class="my_bg_float my_comp5_bg">
