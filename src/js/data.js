@@ -47,6 +47,15 @@ export const data = reactive ({
         }
     ],
 
+    stream: [
+        {
+            img: '/img/image (13).svg'
+        },
+        {
+            img: '/img/image (14).svg'
+        }
+    ],
+
     topFloat: [
         {
             img: '/img/1.png'
@@ -230,7 +239,7 @@ export const data = reactive ({
         }
     ],
 
-    comp6: [
+    battle: [
         {
             subtitle: 'Upcoming Match',
             title: 'Keep Eyes & Manage upcoming Battle',
@@ -239,19 +248,19 @@ export const data = reactive ({
                 {
                     img: '/img/1.png',
                     title: 'Ninja Warrior Gaming',
-                    vote: '9.45',
+                    hour: '9.45',
                     data: '1st November,2022'
                 },
                 {
                     img: '/img/5.png',
                     title: 'Witch Gaming',
-                    vote: '9.45',
+                    hour: '9.45',
                     data: '1st November,2022'
                 },
                 {
                     img: '/img/3.png',
                     title: 'SkullG Gaming',
-                    vote: '9.45',
+                    hour: '9.45',
                     data: '1st November,2022'
                 }
             ]

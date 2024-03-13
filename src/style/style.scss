@@ -30,7 +30,7 @@
 }
 
 .my_arrow {
-  top: -20%;
+  top: -18%;
   right: 1%;
 
   
@@ -60,6 +60,20 @@
     }
   }
 }
+
+.my_stream{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: $secondarygreen;
+  
+  .my_stream_svg{
+    width: 15px;
+    height: 15px;
+    filter: invert(8%) sepia(10%) saturate(5631%) hue-rotate(210deg) brightness(97%) contrast(95%);
+  }
+}
+
 
 .my_comp_bg_blu{
   background-color: $primaryblu;
