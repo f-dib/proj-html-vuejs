@@ -33,28 +33,40 @@ export default {
         <AppBestGaming></AppBestGaming>
     </div>
     <div class="my_bg_float my_comp2_bg">
-        <AppArena></AppArena>
+        <div class="my_comp_overlay_light">
+            <AppArena></AppArena>
+        </div>
     </div>
     <div class="my_comp3_bg">
-        <AppLive></AppLive>
+        <div class="my_comp_overlay">
+            <AppLive></AppLive>
+        </div>
     </div>
-    <div class="my_comp_bg_blu d-none">
+    <div class="my_comp_bg_blu">
         <AppUpcoming></AppUpcoming>
     </div>
     <div class="my_bg_float my_comp5_bg">
-        <AppChoose></AppChoose>
+        <div class="my_comp_overlay_light">
+            <AppChoose></AppChoose>
+        </div>
     </div>
     <div class="my_comp6_bg">
-        <AppBattle></AppBattle>
+        <div class="my_comp_overlay">
+            <AppBattle></AppBattle>
+        </div>
     </div>
     <div class="my_comp_bg_blu">
         <AppTeam></AppTeam>
     </div>
     <div class="my_bg_float my_comp8_bg">
-        <AppClient></AppClient>
+        <div class="my_comp_overlay_light">
+            <AppClient></AppClient>
+        </div>
     </div>
     <div class="my_comp9_bg">
-        <AppShop></AppShop>
+        <div class="my_comp_overlay">
+            <AppShop></AppShop>
+        </div>
     </div>
     <div class="my_comp_bg_blu">
         <AppArticles></AppArticles>
@@ -74,16 +86,6 @@ export default {
         background-position: center;
         position: relative;
     }
-
-    // .my_comp3_bg::before {
-    // position: absolute;
-    // content: "";
-    // top: 0;
-    // left: 0;
-    // right: 0;
-    // bottom: 0;
-    // background: rgba(0, 0, 0, 0.5);
-    // }
 
     .my_comp5_bg{
         background-image: url(../../../public/img/protfolio-vector.png);
@@ -108,5 +110,17 @@ export default {
         background-image: url(../../../public/img/shop-bg.png);
         background-size: cover;
         background-position: center;
+    }
+
+    .my_comp_overlay {
+        width: 100%;
+        height: 100%;
+        background-color: rgba($color: #000000, $alpha: 0.65);
+    }
+
+    .my_comp_overlay_light{
+        width: 100%;
+        height: 100%;
+        background-color: rgba($color: #000000, $alpha: 0.3);
     }
 </style>

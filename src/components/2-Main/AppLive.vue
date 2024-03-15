@@ -18,7 +18,7 @@ export default {
             <div class="w-50 text-white">
                 <div class="w-100 h-100 d-flex justify-content-end align-items-center position-relative">
                     <img class="w-100 rounded-5" src="../../../public/img/v-small1.png" alt="">
-                    <div class="my_round my_play my_play_live d-flex justify-content-center align-items-center position-absolute">
+                    <div class="pulse my_round my_play my_play_live d-flex justify-content-center align-items-center position-absolute">
                         <img class="my_round_img" src="../../../public/img/image (9).svg" alt="">
                     </div>
                 </div>
@@ -35,14 +35,14 @@ export default {
                 <div class="d-flex flex-wrap justify-content-center align-items-center position-relative">
                     <div class="position-absolute my_arrow d-flex gap-2">
                         <div class="my_arrow_bg_left d-flex justify-content-center align-items-center">
-                            <img class="arrow_left" src="/img/image (11).svg" alt="">
+                            <img class="arrow_left" src="/img/image (11).svg" alt="Left Arrow">
                         </div>
                         <div class="my_arrow_bg_right d-flex justify-content-center align-items-center">
-                            <img class="arrow_right" src="/img/image (12).svg" alt="">
+                            <img class="arrow_right" src="/img/image (12).svg" alt="Right Arrow">
                         </div>
                     </div>
                     <div class="w-50 p-3 text-white" v-for="currentLive in currentElement.box">
-                        <div class="my_height rounded-4 overflow-hidden d-flex flex-column justify-content-center align-items-center mb-3">
+                        <div class="my_height rounded-4 overflow-hidden d-flex flex-column justify-content-center align-items-center mb-3" ref="carouselItem">
                             <img class="my_img-fluid" :src="currentLive.img" alt="">
                         </div>
                         <div class="fw-bold mb-2">
@@ -72,8 +72,27 @@ export default {
         padding: 40px;
        }
 
+       .pulse{
+            animation: animate 3s linear infinite;
+
+            .pulse img{
+                cursor: pointer
+            }
+
+            @keyframes animate{
+                0%{box-shadow: 0 0 0 0 $secondarygreen , 0 0 0 0 $secondarygreen}
+                40%{box-shadow: 0 0 0 50px rgb(255, 109, 74, 0) , 0 0 0 0 $secondarygreen}
+                80%{box-shadow: 0 0 0 50px rgb(255, 109, 74, 0) , 0 0 0 30px rgb(255, 109, 74, 0)}
+                100%{box-shadow: 0 0 0 0 rgb(255, 109, 74, 0) , 0 0 0 30px rgb(255, 109, 74, 0)}
+            }
+        }
+
        .my_height {
         height: 200px;
        }
     }
 </style>
+
+
+
+

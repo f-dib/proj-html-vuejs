@@ -9,9 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.0",
     "bootstrap": "^5.3.3",
-    "vue": "^3.4.19",
-    "@fortawesome/fontawesome-free": "^6.2.0"
+    "owl.carousel": "^2.3.4",
+    "vue": "^3.4.19"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",

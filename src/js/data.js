@@ -180,28 +180,68 @@ export const data = reactive ({
                 }
             ],
             
-            // box: [
-            //     {
-            //         img: 'feature1.png',
-            //         title: 'Live Streaming',
-            //         text: 'Nulla porttitor accumsan tincidunt. Pellentesque in.'
-            //     },
-            //     {
-            //         img: 'feature2.png',
-            //         title: 'Gaming News',
-            //         text: 'Nulla porttitor accumsan tincidunt. Pellentesque in.'
-            //     },
-            //     {
-            //         img: 'feature3.png',
-            //         title: 'Great Tournament',
-            //         text: 'Nulla porttitor accumsan tincidunt. Pellentesque in.'
-            //     },
-            //     {
-            //         img: 'feature4.png',
-            //         title: 'Awward Ceremony',
-            //         text: 'Nulla porttitor accumsan tincidunt. Pellentesque in.'
-            //     }
-            // ]
+            box: [
+                {
+                    type: 'All' + 'Pubg' + 'AC',
+                    img1: '/img/t3.png',
+                    country1: 'Italy',
+                    name1: 'Ninga Gaming',
+                    
+                    img2: '/img/t4.png',
+                    country2: 'India',
+                    name2: 'Witch Gaming',
+
+                    title: 'PUBG Battelground',
+                    text: 'Nulla porttitor accumsan tincidunt. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo.',
+                    hour: '10.45',
+                    date: '1st November, 2022'
+                },
+                {
+                    type: 'All' + 'COD' + 'AC',
+                    img1: '/img/t1.png',
+                    country1: 'Italy',
+                    name1: 'King Gaming',
+                    
+                    img2: '/img/t2.png',
+                    country2: 'India',
+                    name2: 'Witch Gaming',
+
+                    title: 'PUBG Battelground',
+                    text: 'Nulla porttitor accumsan tincidunt. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo.',
+                    hour: '9.45',
+                    date: '1st November, 2022'
+                },
+                {
+                    type: 'All' + 'Pubg' + 'MCX',
+                    img1: '/img/t5.png',
+                    country1: 'Italy',
+                    name1: 'Dgn Gaming',
+                    
+                    img2: '/img/t6.png',
+                    country2: 'India',
+                    name2: 'Joker Gaming',
+
+                    title: 'PUBG Battelground',
+                    text: 'Nulla porttitor accumsan tincidunt. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo.',
+                    hour: '8.45',
+                    date: '1st November, 2022'
+                },
+                {
+                    type: 'All' + 'COD' + 'AC',
+                    img1: '/img/t7.png',
+                    country1: 'Italy',
+                    name1: 'Shark Gaming',
+                    
+                    img2: '/img/t8.png',
+                    country2: 'India',
+                    name2: 'Krull Gaming',
+
+                    title: 'PUBG Battelground',
+                    text: 'Nulla porttitor accumsan tincidunt. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo.',
+                    hour: '4.45',
+                    date: '1st November, 2022'
+                },
+            ]
         }
     ],
 
